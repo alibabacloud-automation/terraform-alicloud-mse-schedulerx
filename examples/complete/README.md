@@ -36,9 +36,9 @@ schedulerx_group_id   = "your-schedulerx-group-id"
 2. Initialize and apply the configuration:
 
 ```bash
-terraform init
-terraform plan
-terraform apply
+$ terraform init
+$ terraform plan
+$ terraform apply
 ```
 
 ## Accessing the Demo Application
@@ -58,8 +58,10 @@ You can customize the deployment by:
 To destroy the resources:
 
 ```bash
-terraform destroy
+$ terraform destroy
 ```
+
+**Note:** This example will create resources that incur costs. Make sure to destroy the resources when you're done testing to avoid unnecessary charges.
 
 ## Notes
 
